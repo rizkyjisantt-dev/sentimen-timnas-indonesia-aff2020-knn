@@ -1,4 +1,4 @@
-# 🇮🇩 Sentiment Analysis of Indonesian National Football Team at AFF 2020 Using K-Nearest Neighbors Algorithm
+# Sentiment Analysis of Indonesian National Football Team at AFF 2020 Using K-Nearest Neighbors Algorithm
 
 This project is a final assignment for the Natural Language Processing (NLP) course. It aims to analyze public sentiment toward the Indonesian National Football Team's performance during the AFF Championship 2020 using the **K-Nearest Neighbors (K-NN)** classification algorithm.
 
