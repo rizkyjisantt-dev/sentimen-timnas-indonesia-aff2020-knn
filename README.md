@@ -1,42 +1,67 @@
-# Sentiment Analysis of Indonesian National Football Team at AFF 2020 Using K-Nearest Neighbors Algorithm
+# Sentiment Analysis of Indonesian National Football Team at AFF 2020 Using K-Nearest Neighbors
 
-This project is a final assignment for the Natural Language Processing (NLP) course. It aims to analyze public sentiment toward the Indonesian National Football Team's performance during the AFF Championship 2020 using the **K-Nearest Neighbors (K-NN)** classification algorithm.
+This repository contains a sentiment analysis project focused on public opinion toward the Indonesian National Football Team during the AFF Championship 2020. The analysis is conducted using the K-Nearest Neighbors (KNN) algorithm to classify sentiments expressed on Twitter into positive, neutral, and negative categories.
 
-## 📌 Project Overview
+## 📌 Project Background
 
-Public sentiment is collected through Twitter using relevant keywords related to Indonesia’s matches and the AFF 2020 tournament. The tweets are then preprocessed and classified into three sentiment categories:
-- Positive
-- Negative
-- Neutral
+Public sentiment on social media reflects how people perceive certain events, including sports competitions. During the AFF Cup 2020, Indonesia’s performance sparked various reactions from fans on Twitter. Understanding these sentiments can help measure public support and reaction dynamically.
 
-## 🧪 Workflow
-1. **Data Collection** – Tweets were scraped using `snscrape` with specific keywords.
-2. **Text Preprocessing** – Including:
-   - Case folding
-   - Tokenization
-   - Stopword removal
-   - Stemming (using Sastrawi for Bahasa Indonesia)
-3. **Feature Extraction** – Using TF-IDF vectorization.
-4. **Modeling** – Sentiment classification using K-NN algorithm.
-5. **Evaluation** – Based on accuracy, precision, recall, and F1-score.
+## 🧪 Methodology
 
-## 🛠️ Technologies & Libraries
-- Python 3.x
-- Sastrawi (Indonesian stemmer)
-- scikit-learn
-- pandas, numpy
-- matplotlib, seaborn
-- snscrape
+This project follows several key steps:
 
-## 📚 References
-- AFF Championship 2020 official schedule
-- Twitter data collected during the match periods
-- Preprocessing adapted for Bahasa Indonesia using Sastrawi
+1. **Data Collection**  
+   - Tweets were collected using relevant keywords and hashtags during the AFF 2020.
+
+2. **Preprocessing**  
+   - Case folding  
+   - Cleansing (removing punctuation, URLs, mentions, etc.)  
+   - Stopword removal  
+   - Tokenization  
+   - Stemming  
+
+3. **Feature Extraction**  
+   - TF-IDF (Term Frequency-Inverse Document Frequency)
+
+4. **Modeling**  
+   - Sentiment classification using the **K-Nearest Neighbors (KNN)** algorithm.
+
+5. **Evaluation**  
+   - Accuracy  
+   - Confusion Matrix  
+   - Precision, Recall, and F1-Score
+
+## 🛠️ Technologies Used
+
+- Python  
+- Jupyter Notebook  
+- Scikit-learn  
+- Pandas  
+- NLTK  
+- Sastrawi
+
+## 📊 Results
+
+- The trained KNN model successfully classified sentiments with promising evaluation results.
+- Sentiment distribution showed that [insert result summary if available, e.g., “positive sentiments dominated the conversation.”]
+
+## 📁 Repository Structure
+
+📦sentimen-timnas-indonesia-aff2020-knn
+┣ 📂data
+┃ ┗ 📄dataset_twitter_aff2020.csv
+┣ 📂notebooks
+┃ ┗ 📄sentiment_knn_model.ipynb
+┣ 📄README.md
+┗ 📄requirements.txt
+
 
 ## 👨‍💻 Author
-**Mochammad Rizki Aji Santoso**  
-Informatics Engineering Student  
-Universitas Trunojoyo Madura
 
-## 📃 License
-This project is for academic purposes only. Feel free to use or modify it with proper attribution.
+- Mochammad Rizki Aji Santoso – [GitHub](https://github.com/rizkyjisantt-dev) | [LinkedIn](https://linkedin.com/in/moch-rizki)
+
+---
+
+📌 *This project was developed for academic purposes as part of a final assignment.*  
+📣 Feedback and contributions are welcome!
+
