@@ -48,13 +48,11 @@ This project follows several key steps:
 ## 📁 Repository Structure
 
 📦sentimen-timnas-indonesia-aff2020-knn
-┣ 📂data
-┃ ┗ 📄dataset_twitter_aff2020.csv
-┣ 📂notebooks
-┃ ┗ 📄sentiment_knn_model.ipynb
-┣ 📄README.md
-┗ 📄requirements.txt
-
+│-- data/                  # 📄dataset_twitter_aff2020.csv
+│-- notebooks/             # 📄sentiment_knn_model.ipynb
+│-- models/                # Trained models
+│-- results/               # Model evaluation results
+│-- README.md              # Project documentation
 
 ## 👨‍💻 Author
 
