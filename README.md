@@ -28,4 +28,15 @@ Public sentiment is collected through Twitter using relevant keywords related to
 - matplotlib, seaborn
 - snscrape
 
-## 📂 Project Structure
+## 📚 References
+- AFF Championship 2020 official schedule
+- Twitter data collected during the match periods
+- Preprocessing adapted for Bahasa Indonesia using Sastrawi
+
+## 👨‍💻 Author
+**Mochammad Rizki Aji Santoso**  
+Informatics Engineering Student  
+Universitas Trunojoyo Madura
+
+## 📃 License
+This project is for academic purposes only. Feel free to use or modify it with proper attribution.
