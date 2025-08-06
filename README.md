@@ -46,12 +46,12 @@ This project follows several key steps:
 - Sentiment distribution showed that [insert result summary if available, e.g., “positive sentiments dominated the conversation.”]
 
 ## 📁 Repository Structure
-
-├── data/                # 📄dataset_twitter_aff2020.csv
-├── notebooks/           # 📄sentiment_knn_model.ipynb
-├── models/              # Trained models
-├── results/             # Model evaluation results
-├── README.md            # Project documentation
+sentimen-timnas-indonesia-aff2020-knn/
+├── data/                # Raw and cleaned review text data  
+├── notebooks/           # EDA and modeling notebooks  
+├── src/                 # Scripts for preprocessing, feature extraction, modeling  
+├── results/             # Model evaluation results & visualizations  
+├── README.md            # Project documentation  
 
 
 ## 👨‍💻 Author
