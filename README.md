@@ -47,6 +47,7 @@ This project follows several key steps:
 
 ## 📁 Repository Structure
 sentimen-timnas-indonesia-aff2020-knn/
+
 ├── data/                # Raw and cleaned review text data  
 ├── notebooks/           # EDA and modeling notebooks  
 ├── src/                 # Scripts for preprocessing, feature extraction, modeling  
